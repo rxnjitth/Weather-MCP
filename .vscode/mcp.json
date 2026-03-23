@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "weather": {
+      "type": "stdio",
+      "command": "uv",
+      "args": [
+        "run",
+        "weather.py"
+      ]
+    }
+  }
+}
