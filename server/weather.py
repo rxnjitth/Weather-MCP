@@ -71,4 +71,5 @@ def greet_user(name: str, style: str = "friendly") -> str:
         "casual": "Please write a casual, relaxed greeting",
     }
 
+
     return f"{styles.get(style, styles['friendly'])} for someone named {name}."
